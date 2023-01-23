@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/c7c4444f80.js" crossorigin="anonymous"></script>
   <title>Ohmyfood</title>
   <link href="css/index.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -15,13 +17,15 @@
       <img src="images/logo/ohmyfood.png" alt="Logo ohmyfood">
     </div>
     <section>
-      <div>
-        <p>Localisation</p>
+      <div class="placeholder">
+        <form action="">
+          <input type="text" id="location" placeholder="Paris, Belleville">
+        </form>
       </div>
     </section>
 
     <section>
-      <div>
+      <div class="card-reserver">
         <h1>Réservez le menu qui vous convient</h1>
         <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
         <button>Explorer nos restaurants</button>
@@ -46,38 +50,54 @@
     </section>
 
     <section>
-      <div>
+      <div class="restaurant">
         <h1>Restaurants</h1>
-        <div>
+        <div class="card">
           <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
-          <div>
-            <h3>La palette du goût</h3>
-            <p>Ménilmontant</p>
-            <p>coeur</p>
+          <div class="card-bas">
+            <div>
+              <h3>La palette du goût</h3>
+              <p>Ménilmontant</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
-          <div>
-            <h3>La note enchantée</h3>
-            <p>Charonne</p>
-            <p>coeur</p>
+          <div class="card-bas">
+            <div>
+              <h3>La note enchantée</h3>
+              <p>Charonne</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
-          <div>
-            <h3>À la française</h3>
-            <p>Cité Rouge</p>
-            <p>coeur</p>
+          <div class="card-bas">
+            <div>
+              <h3>À la française</h3>
+              <p>Cité Rouge</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="card">
           <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
-          <div>
-            <h3>Le délice des sens</h3>
-            <p>Folie-Méricourt</p>
-            <p>coeur</p>
+          <div class="card-bas">
+            <div>
+              <h3>Le délice des sens</h3>
+              <p>Folie-Méricourt</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-heart"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -87,10 +107,12 @@
   <footer>
     <div>
       <img src="images/logo/ohmyfood.png" alt="logo ohmyfood">
-      <a href="">Proposer un restaurant</a>
-      <a href="">Devenir partenaire</a>
-      <a href="">Mention légales</a>
-      <a href="">Contact</a>
+      <div class="information">
+        <a href="">Proposer un restaurant</a>
+        <a href="">Devenir partenaire</a>
+        <a href="">Mention légales</a>
+        <a href="">Contact</a>
+      </div>
     </div>
   </footer>
 </body>

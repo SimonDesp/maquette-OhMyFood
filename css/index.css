@@ -1,0 +1,104 @@
+body {
+  margin: auto;
+
+}
+
+/************ head ************/
+
+header {
+
+}
+
+header img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.placeholder {
+  background-color: #525252;
+}
+
+input {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+header form {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-reserver {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.card-reserver h1, .card-reserver p {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+/************ body ************/
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.card img{
+  width: 96%;
+  object-fit: cover;
+  align-self: center;
+  border-radius: 20px 20px 0px 0px;
+  padding-top: 4px;
+  height: 105px;
+}
+
+.restaurant {
+  margin: 0px 10px 0px 10px;
+}
+
+.card-bas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-bas h3, .card-bas p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/************ footer ************/
+
+footer {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
