@@ -3,7 +3,7 @@ body {
 
 }
 
-/************ head ************/
+/************ header ************/
 
 header {
 
@@ -48,6 +48,16 @@ button {
 
 /************ body ************/
 
+.fonctionnement {
+  border: 1px solid black;
+  border-radius: 15%;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 15px;
+
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -68,6 +78,10 @@ button {
 
 .restaurant {
   margin: 0px 10px 0px 10px;
+}
+
+.restaurant a {
+  text-decoration: none;
 }
 
 .card-bas {

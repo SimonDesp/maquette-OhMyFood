@@ -1,0 +1,83 @@
+body {
+  margin: auto;
+}
+
+/************ header ************/
+nav {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+nav a {
+  margin-left: 15px;
+}
+
+nav img {
+  width: 200px;
+  margin: auto;
+
+}
+
+
+/************ body ************/
+
+
+main img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.card-menu {
+  border: 1px solid darkgray;
+  background-color: darkgrey;
+  border-radius: 40px 40px 0px 0px;
+  margin-top: -45px;
+
+}
+
+.card-menu h3, p {
+  margin: 0;
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.btn-menu {
+  border: 1px solid black;
+  border-radius: 15%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.entrees {
+ margin: 20px 20px;
+}
+
+.plats {
+  margin: 20px 20px;
+}
+
+.desserts {
+  margin: 20px 20px;
+}
+
+/************ footer ************/
+
+footer img {
+  width: 200px;
+}
