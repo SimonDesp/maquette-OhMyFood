@@ -1,6 +1,14 @@
 body {
   margin: auto;
+  max-width: 400px;
 
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
 }
 
 /************ header ************/
@@ -17,44 +25,50 @@ header img {
   margin-bottom: 15px;
 }
 
-.placeholder {
-  background-color: #525252;
-}
-
-input {
+.localisation {
+  background-color: #eaeaea;
+  box-shadow: 0px 0px 10px rgba(206,206,206,255);
   display: block;
   margin: auto;
   text-align: center;
+  padding: 15px 0px;
 }
+
+.localisation p {
+  margin: 0px;
+  color: #353535;
+}
+
 header form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.card-reserver {
-  background-color: #f6f6f6;
+.reserver {
+  background-color: #f7f7f7;
   padding-top: 20px;
   padding-bottom: 40px;
 }
 
-.card-reserver h1, .card-reserver p {
+.reserver h1, .reserver p {
   text-align: center;
 }
 
-button {
+.reserver a {
   display: block;
   margin: auto;
 }
 
 /************ body ************/
 
-.fonctionnement {
+.fonctionnement-btn {
   border: 1px solid black;
   border-radius: 15%;
   text-align: center;
   margin: auto;
   width: 90%;
   margin-bottom: 15px;
+  display: flex;
 
 }
 
