@@ -14,6 +14,10 @@ nav a {
   margin-left: 15px;
 }
 
+nav i {
+  text-decoration: none;
+}
+
 nav img {
   width: 200px;
   margin: auto;
@@ -32,16 +36,33 @@ main img {
   z-index: -1;
 }
 
+.menu h2 {
+  color: #3e3e3e;
+  font-size: 1.4em;
+  font-weight: 100;
+  border-bottom: solid 3px rgba(153,226,208,255);
+  width: 45px;
+  padding-bottom: 5px;
+}
+
 .card-menu {
-  border: 1px solid darkgray;
-  background-color: darkgrey;
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
   border-radius: 40px 40px 0px 0px;
   margin-top: -45px;
 
 }
 
-.card-menu h3, p {
+.card-menu p {
   margin: 0;
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #353535;
+}
+
+.card-menu h3{
+  margin: 0;
+  font-size: 1.1em;
 }
 
 .menu-flex {
@@ -50,7 +71,7 @@ main img {
 
 }
 
-.title {
+.titre {
   align-items: baseline;
   display: flex;
   justify-content: space-between;
@@ -58,27 +79,63 @@ main img {
 }
 
 .btn-menu {
-  border: 1px solid black;
-  border-radius: 15%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
   padding: 10px;
   margin-bottom: 10px;
 }
 
-
-.entrees {
- margin: 20px 20px;
-}
-
-.plats {
+.menu {
   margin: 20px 20px;
 }
 
-.desserts {
-  margin: 20px 20px;
+.commander {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width: 30%;
+  padding: 13px 20px;
+  border-radius: 50px;
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(147, 86, 220), rgb(255, 121, 218));
 }
-
 /************ footer ************/
 
-footer img {
-  width: 200px;
+footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
+
+footer img {
+  width: 100px;
+  padding: 0px 20px ;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  padding: 0px 20px;
+}
+
+footer li {
+  margin-top: 5px;
+  list-style: none;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+

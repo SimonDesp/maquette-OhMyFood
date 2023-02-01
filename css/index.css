@@ -25,6 +25,8 @@ header img {
   margin-bottom: 15px;
 }
 
+/************ body ************/
+
 .localisation {
   background-color: #eaeaea;
   box-shadow: 0px 0px 10px rgba(206,206,206,255);
@@ -54,22 +56,59 @@ header form {
   text-align: center;
 }
 
-.reserver a {
-  display: block;
-  margin: auto;
+.reserver p {
+  font-weight: 300;
+  padding: 5px;
 }
 
-/************ body ************/
+.explorer {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 13px 20px;
+  border-radius: 50px;
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(147, 86, 220), rgb(255, 121, 218));
+}
+
+
+.fonctionnement h1 {
+  padding: 0px 10px;
+}
 
 .fonctionnement-btn {
-  border: 1px solid black;
-  border-radius: 15%;
+  width: 300px;
   text-align: center;
   margin: auto;
-  width: 90%;
-  margin-bottom: 15px;
   display: flex;
-
+  position: relative;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 247, 247);
+}
+.fonctionnement-btn i {
+  margin-right: 15px;
+  margin-left: 15px;
+  color: rgb(126, 126, 126);
+}
+.fonctionnement-btn .cercle {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -10px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 0.7em;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(147, 86, 220);
 }
 
 .card {
@@ -91,11 +130,12 @@ header form {
 }
 
 .restaurant {
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px;
 }
 
 .restaurant a {
   text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 .card-bas {
@@ -116,7 +156,7 @@ header form {
 /************ footer ************/
 
 footer {
-  background-color: gray;
+  background-color: #353535;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
@@ -124,6 +164,21 @@ footer {
 
 footer img {
   width: 100px;
+  padding: 0px 20px ;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul {
+  padding: 0px 20px;
+}
+
+footer li {
+  margin-top: 5px;
+  list-style: none;
 }
 
 .information {
