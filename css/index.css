@@ -3,11 +3,7 @@ body {
   max-width: 400px;
 
 }
-p {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1 {
+* {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -165,6 +161,7 @@ footer {
 footer img {
   width: 100px;
   padding: 0px 20px ;
+  filter: brightness(100);
 }
 
 footer a {
