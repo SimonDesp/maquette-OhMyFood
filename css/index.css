@@ -9,10 +9,6 @@ body {
 
 /************ header ************/
 
-header {
-
-}
-
 header img {
   width: 200px;
   display: block;
@@ -184,9 +180,9 @@ header form {
   font-size: 25px;
 }
 
-.card-bas:hover > i {
+.coeur:hover > i {
   color: #9356dc;
-  background-color: #9356dc;
+  transition: color 1s ease-out;
 }
 
 
@@ -224,11 +220,13 @@ footer li {
   flex-direction: column;
 }
 
-/************ loading spinner ************/
+/************ loading spinner
 
-.loader {
-  width: 48px;
-  height: 48px;
+<div class="loading-spinner"></div>
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
   border: 5px solid #FFF;
   border-bottom-color: transparent;
   border-radius: 50%;
@@ -245,3 +243,5 @@ footer li {
       transform: rotate(360deg);
   }
   }
+
+  ************/
