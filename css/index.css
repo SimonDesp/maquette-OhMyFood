@@ -7,6 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
 /************ header ************/
 
 header img {
@@ -70,6 +71,9 @@ header form {
   background: linear-gradient(rgb(147, 86, 220), rgb(255, 121, 218));
 }
 
+.explorer:hover {
+  filter: brightness(1.25);
+}
 
 .fonctionnement h1 {
   padding: 0px 20px;
@@ -129,11 +133,10 @@ header form {
 }
 
 .card img{
-  width: 96%;
+  width: 100%;
   object-fit: cover;
   align-self: center;
   border-radius: 20px 20px 0px 0px;
-  padding-top: 4px;
   height: 200px;
 }
 
@@ -220,28 +223,50 @@ footer li {
   flex-direction: column;
 }
 
-/************ loading spinner
+/************ loading spinner ************/
 
-<div class="loading-spinner"></div>
+.loader {
+  width: 100%;
+  height: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  animation: loader 0s linear 2s forwards;
+  z-index: 10;
+  background-color: indigo;
+  top: 0px;
+  right: 0px;
+
+}
 
 .loading-spinner {
   width: 50px;
   height: 50px;
-  border: 5px solid #FFF;
+  border: 5px solid red;
   border-bottom-color: transparent;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
-  }
+}
 
-  @keyframes rotation {
+@keyframes rotation {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
+}
+
+@keyframes loader {
+  0% {
+    opacity: 100%;
   }
 
-  ************/
+  100% {
+    opacity: 0%;
+    z-index: -100;
+  }
+}
