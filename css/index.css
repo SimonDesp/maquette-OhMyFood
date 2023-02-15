@@ -183,9 +183,18 @@ header form {
   font-size: 25px;
 }
 
-.coeur:hover > i {
+.fa-solid {
+  display: none;
+}
+
+.coeur:hover > .fa-regular {
+  display: none;
+}
+
+.coeur:hover > .fa-solid {
   color: #9356dc;
-  transition: color 1s ease-out;
+  transition: color 4s ease-out;
+  display: contents;
 }
 
 
