@@ -79,6 +79,8 @@ main img {
 
 .card-menu h1 {
   font-style: italic;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.7em;
 }
 
 .card-menu i {
