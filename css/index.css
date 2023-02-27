@@ -73,6 +73,7 @@ header form {
 
 .explorer:hover {
   filter: brightness(1.25);
+  box-shadow: 5px 5px 10px indigo;
 }
 
 .fonctionnement h1 {
@@ -183,20 +184,24 @@ header form {
   font-size: 25px;
 }
 
+.coeur i{
+  transition: transform 0.3s ease-in;
+}
+
 .coeur .fa-solid {
+  transform: scale(1);
   display: none;
 }
 
 .coeur:hover > .fa-regular {
-  display: none;
+  transform: scale(0);
 }
 
 .coeur:hover > .fa-solid {
   color: #9356dc;
-  transition: color 4s ease-out;
   display: contents;
+  transform: scale(1);
 }
-
 
 /************ footer ************/
 
