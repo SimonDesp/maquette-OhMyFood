@@ -43,18 +43,28 @@ main img {
   z-index: -1;
 }
 
-.coeur .fa-solid {
-  display: none;
+.coeur i{
+  transition: transform 0.3s ease-in;
+  margin-right: 10px;
 }
 
-.coeur:hover > .fa-regular {
-  display: none;
+.coeur i:nth-child(1) {
+  transform: scale(1);
+  position: absolute
 }
 
-.coeur:hover > .fa-solid {
+.coeur i:nth-child(2) {
+  transform: scale(0);
   color: #9356dc;
-  transition: color 4s ease-out;
-  display: contents;
+}
+
+
+.coeur:hover i:nth-child(1) {
+  transform: scale(0);
+}
+
+.coeur:hover i:nth-child(2) {
+  transform: scale(1);
 }
 
 
