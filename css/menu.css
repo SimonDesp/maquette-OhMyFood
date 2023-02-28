@@ -31,9 +31,7 @@ nav img {
 
 }
 
-
 /************ body ************/
-
 
 main img {
   height: 300px;
@@ -43,31 +41,6 @@ main img {
   z-index: -1;
 }
 
-.coeur i{
-  transition: transform 0.3s ease-in;
-  margin-right: 10px;
-}
-
-.coeur i:nth-child(1) {
-  transform: scale(1);
-  position: absolute
-}
-
-.coeur i:nth-child(2) {
-  transform: scale(0);
-  color: #9356dc;
-}
-
-
-.coeur:hover i:nth-child(1) {
-  transform: scale(0);
-}
-
-.coeur:hover i:nth-child(2) {
-  transform: scale(1);
-}
-
-
 .menu h2 {
   color: #3e3e3e;
   font-size: 1.4em;
@@ -76,6 +49,7 @@ main img {
   width: 45px;
   padding-bottom: 5px;
   animation: apparition 1s 0.6s forwards;
+  opacity: 0%;
 }
 
 .card-menu {
@@ -132,7 +106,7 @@ main img {
 }
 
 .titre {
-  align-items: baseline;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 10px 20px;
@@ -155,6 +129,7 @@ main img {
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
   display: flex;
+  opacity: 0%;
 }
 
 .menu {

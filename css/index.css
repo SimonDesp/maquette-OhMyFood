@@ -183,30 +183,6 @@ header form {
   font-size: 25px;
 }
 
-.coeur i{
-  transition: transform 0.3s ease-in;
-  margin-right: 10px;
-}
-
-.coeur i:nth-child(1) {
-  transform: scale(1);
-  position: absolute
-}
-
-.coeur i:nth-child(2) {
-  transform: scale(0);
-  color: #9356dc;
-}
-
-
-.coeur:hover i:nth-child(1) {
-  transform: scale(0);
-}
-
-.coeur:hover i:nth-child(2) {
-  transform: scale(1);
-}
-
 /************ footer ************/
 
 footer {

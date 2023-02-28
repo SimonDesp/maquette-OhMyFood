@@ -45,3 +45,31 @@
     z-index: -100;
   }
 }
+
+/************ Coeur ************/
+
+.coeur i{
+  transition: transform 0.3s ease-in;
+  margin-right: 10px;
+}
+
+.coeur i:nth-child(1) {
+  transform: scale(1);
+  position: absolute
+}
+
+.coeur i:nth-child(2) {
+  transform: scale(0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #9356dc;
+}
+
+
+.coeur:hover i:nth-child(1) {
+  transform: scale(0);
+}
+
+.coeur:hover i:nth-child(2) {
+  transform: scale(1);
+}
