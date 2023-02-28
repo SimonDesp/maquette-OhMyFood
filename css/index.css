@@ -26,7 +26,6 @@ header h1 {
   border-top: 2px rgba(213,213,213,255) solid;
   text-align: center;
   padding: 15px 0px;
-  margin-left: 10px;
 }
 
 input[type=text] {
@@ -50,6 +49,7 @@ input:focus {
 
 .localisation i {
   margin-right: 5px;
+  margin-left: 10px;
 }
 header form {
   padding-top: 15px;
