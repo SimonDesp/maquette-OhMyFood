@@ -61,7 +61,6 @@ main img {
 }
 
 .card-menu h1 {
-  font-style: italic;
   font-family: 'Shrikhand', cursive;
   font-size: 1.7em;
 }
@@ -203,17 +202,19 @@ main img {
 
 /************ footer ************/
 
+
 footer {
   background-color: #353535;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
 }
 
-footer img {
-  width: 100px;
+footer h2 {
   padding: 0px 20px ;
-  filter: brightness(100);
+  margin: 15px 0px 0px 0px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 18px;
+  color:  white;
 }
 
 footer a {
@@ -223,6 +224,7 @@ footer a {
 
 footer ul {
   padding: 0px 20px;
+  margin: 10px 0px 20px 0px;
 }
 
 footer li {

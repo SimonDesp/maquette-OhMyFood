@@ -8,12 +8,14 @@ body {
 
 /************ header ************/
 
-header img {
+header h1 {
   width: 200px;
   display: block;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 35px;
 }
 
 /************ body ************/
@@ -47,7 +49,7 @@ header form {
   padding-bottom: 40px;
 }
 
-.reserver h1, .reserver p {
+.reserver h2, .reserver p {
   text-align: center;
 }
 
@@ -74,7 +76,7 @@ header form {
   box-shadow: 5px 5px 10px indigo;
 }
 
-.fonctionnement h1 {
+.fonctionnement h2 {
   padding: 0px 20px;
 }
 
@@ -189,13 +191,14 @@ footer {
   background-color: #353535;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
 }
 
-footer img {
-  width: 100px;
+footer h2 {
   padding: 0px 20px ;
-  filter: brightness(100);
+  margin: 15px 0px 0px 0px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 18px;
+  color:  white;
 }
 
 footer a {
@@ -205,6 +208,7 @@ footer a {
 
 footer ul {
   padding: 0px 20px;
+  margin: 10px 0px 20px 0px;
 }
 
 footer li {
