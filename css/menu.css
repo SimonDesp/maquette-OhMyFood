@@ -25,10 +25,13 @@ nav i {
   font-size: 20px;
 }
 
-nav img {
+header h1 {
   width: 200px;
   margin: auto;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
 }
 
 /************ body ************/
