@@ -24,15 +24,28 @@ header h1 {
   background-color: #eaeaea;
   box-shadow: 0px 0px 5px rgba(206,206,206,255);
   border-top: 2px rgba(213,213,213,255) solid;
-  display: block;
-  margin: auto;
   text-align: center;
   padding: 15px 0px;
+  margin-left: 10px;
 }
 
-.localisation p {
-  margin: 0px;
+input[type=text] {
+  text-decoration: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+input::placeholder {
   color: #353535;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+
+}
+
+input:focus {
+  outline: none;
 }
 
 .localisation i {
