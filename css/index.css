@@ -1,7 +1,5 @@
 body {
   margin: auto;
-  max-width: 400px;
-
 }
 * {
   font-family: 'Roboto', sans-serif;
@@ -160,6 +158,7 @@ header form {
   font-size: 1.1em;
   color: rgb(0, 135, 102);
   background-color: rgb(153, 226, 208);
+  position: absolute;
 }
 
 .restaurant a {
@@ -186,20 +185,25 @@ header form {
 
 .coeur i{
   transition: transform 0.3s ease-in;
+  margin-right: 10px;
 }
 
-.coeur .fa-solid {
+.coeur i:nth-child(1) {
   transform: scale(1);
-  display: none;
+  position: absolute
 }
 
-.coeur:hover > .fa-regular {
+.coeur i:nth-child(2) {
+  transform: scale(0);
+  color: #9356dc;
+}
+
+
+.coeur:hover i:nth-child(1) {
   transform: scale(0);
 }
 
-.coeur:hover > .fa-solid {
-  color: #9356dc;
-  display: contents;
+.coeur:hover i:nth-child(2) {
   transform: scale(1);
 }
 
@@ -235,52 +239,4 @@ footer li {
 .information {
   display: flex;
   flex-direction: column;
-}
-
-/************ loading spinner ************/
-
-.loader {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  animation: loader 0s linear 2s forwards;
-  z-index: 10;
-  background-color: indigo;
-  top: 0px;
-  right: 0px;
-
-}
-
-.loading-spinner {
-  width: 50px;
-  height: 50px;
-  border: 5px solid red;
-  border-bottom-color: transparent;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: rotation 1s linear infinite;
-}
-
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loader {
-  0% {
-    opacity: 100%;
-  }
-
-  100% {
-    opacity: 0%;
-    z-index: -100;
-  }
 }
