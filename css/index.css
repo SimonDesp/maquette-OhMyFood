@@ -164,17 +164,15 @@ header form {
 .nouveau {
   width: 80px;
   height: 30px;
+  position: absolute;
   right: 55px;
   z-index: 1;
-  margin-left: 250px;
-  margin-bottom: -50px;
   margin-top: 20px;
   text-align: center;
   line-height: 30px;
   font-size: 1.1em;
   color: rgb(0, 135, 102);
   background-color: rgb(153, 226, 208);
-  position: absolute;
 }
 
 .restaurant a {
