@@ -25,7 +25,7 @@ nav i {
   font-size: 20px;
 }
 
-header h1 {
+header p {
   width: 200px;
   margin: auto;
   margin-top: 15px;
@@ -200,7 +200,7 @@ main img {
   animation: apparition 1s 1.2s forwards;
 }
 .menu .box-menu-commander:nth-child(5) {
-  animation: apparition 1s 1.2s forwards;
+  animation: apparition 1s 1.4s forwards;
 }
 
 /************ footer ************/
@@ -212,7 +212,7 @@ footer {
   flex-direction: column;
 }
 
-footer h2 {
+footer p {
   padding: 0px 20px ;
   margin: 15px 0px 0px 0px;
   font-family: 'Shrikhand', cursive;
