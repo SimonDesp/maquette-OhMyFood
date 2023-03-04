@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  max-width: 1400px;
+  max-width: 1920px;
   min-width: 320px;
 }
 * {
@@ -98,6 +98,7 @@ header form {
 .fonctionnement-btn {
   max-width: 260px;
   text-align: center;
+  align-items: center;
   margin: auto;
   display: flex;
   position: relative;
@@ -234,4 +235,85 @@ footer li {
 .information {
   display: flex;
   flex-direction: column;
+}
+
+
+@media screen and (max-width: 767px) {
+  .explorer {
+    width: 210px;
+  }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+  .explorer {
+    width: 240px;
+  }
+
+  .fonctionnement {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fonctionnement h2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+  }
+
+  .fonctionnement-btn {
+    padding: 10px;
+    max-width: 260px;
+    margin: 10px 15px;
+  }
+
+  .restaurant h2  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+
+  .restaurant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .explorer {
+    width: 250px;
+  }
+
+  .fonctionnement {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fonctionnement h2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .restaurant h2  {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .restaurant {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px
+  }
 }
